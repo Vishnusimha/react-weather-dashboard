@@ -12,7 +12,7 @@ function App() {
     if (!city) return;
 
     try {
-      console.log("API KEY:", API_KEY); // Debug
+      console.log("API KEY:", API_KEY); // Debugs
 
       const res = await fetch(
         `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${API_KEY}`
